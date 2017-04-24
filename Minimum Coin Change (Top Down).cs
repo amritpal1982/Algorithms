@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 
+namespace Algorithms
 {
     
     //Quick and Dirty Class that depicts the Top Down approach

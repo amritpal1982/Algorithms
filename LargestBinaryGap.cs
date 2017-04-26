@@ -20,6 +20,7 @@ namespace Algorithms
             
         }
         
+		//Find Binary Gap in a list of binary values
         private static int FindLargestBinaryGap(List<int> bits)
         {
             int count = 0;
@@ -43,6 +44,8 @@ namespace Algorithms
             return largestGap;
         }
         
+		//Overloaded Method to find the Binary Gap of a decimal number
+		//First Converts the decimal to Binary List
         private static int FindLargestBinaryGap(long number)
         {
             List<int> bitsArray = ConvertToBinary(number);
@@ -50,6 +53,7 @@ namespace Algorithms
         }
         
         
+		//Converts the decimal number to a List of Binary Values
         private static List<int> ConvertToBinary(long number)
         {
             List<int> bits = new List<int>();
